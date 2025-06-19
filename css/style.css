@@ -148,6 +148,7 @@ ul li a:hover,
   background-size: cover;
   background-position: bottom;
   padding: 235px 0;
+  padding-top: 100px;
   text-align: center;
   height: 615px;
   z-index: -2;
@@ -558,3 +559,12 @@ hr {
   height: 38px;
 }
 /* End Scroll To top */
+
+#header-logo {
+  width: 150px; /* Ajusta el tamaño según necesites */
+  height: 150px; /* Debe ser igual al width para un círculo perfecto */
+  border-radius: 50%; /* Esto hace que la imagen sea redonda */
+  border: 3px solid white; /* Borde blanco de 3px. Puedes cambiar el color y grosor */
+  object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+  margin-bottom: 20px; /* Espacio debajo del logo */
+}
