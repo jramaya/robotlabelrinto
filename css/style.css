@@ -187,16 +187,19 @@ ul li a:hover,
 
 #feature-area .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .feature-content {
-  max-width: 30%;
+  flex: 0 1 260px;
   background: #f2f2f2;
-  margin: 0 15px;
   padding-bottom: 40px;
   overflow: hidden;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .feature-content a {
@@ -213,6 +216,7 @@ ul li a:hover,
   text-align: left;
   color: #333333;
   margin-top: 15px;
+  flex-grow: 1;
 }
 
 .feature-button {
