@@ -186,14 +186,12 @@ ul li a:hover,
 }
 
 #feature-area .container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 30px;
 }
 
 .feature-content {
-  flex: 0 1 260px;
   background: #f2f2f2;
   padding-bottom: 40px;
   overflow: hidden;
